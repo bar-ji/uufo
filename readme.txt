@@ -1,1 +1,1 @@
-Run the exe inside of build
+Run the exe inside of build or run shortcut in root dir
