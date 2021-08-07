@@ -23,6 +23,8 @@ int main(void)
     const int screenHeight = 800;
 
     InitWindow(screenWidth, screenHeight, "uufo");
+    Image favicon = LoadImage("../data/images/ufo.png");
+    SetWindowIcon(favicon);
 
     SetTargetFPS(60);           
 
