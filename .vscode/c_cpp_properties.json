@@ -3,20 +3,17 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:/raylib/raylib/src/**",
-                "${workspaceFolder}/**"
+                "${default}"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE",
-                "GRAPHICS_API_OPENGL_33",
-                "PLATFORM_DESKTOP"
+                "_UNICODE"
             ],
-            "compilerPath": "C:/raylib/mingw/bin/g++.exe",
-            "cStandard": "c99",
-            "cppStandard": "c++14",
-            "intelliSenseMode": "gcc-x64"
+            "windowsSdkVersion": "10.0.19041.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
         }
     ],
     "version": 4
