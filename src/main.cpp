@@ -130,7 +130,7 @@ void GameplayManager(float* speedPtr, float* speedTime, float* meteorTimer, std:
             (*meteors).erase((*meteors).begin() + i);
             PlaySound((*meteors)[i].hit);
         }
-        if(CheckCollisionCircles((*meteors)[i].position, 20, (*player).position, 35))
+        if(CheckCollisionCircles((*meteors)[i].position, 20, (*player).position, 25))
         {
             StopMusicStream(music);
             PlaySound(end);

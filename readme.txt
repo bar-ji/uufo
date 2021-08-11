@@ -1,1 +1,1 @@
-Run the exe inside of build or run shortcut in root dir
+Run the exe inside of build. You can try the shortcut however some users experienced graphic not being loaded.
